@@ -1,0 +1,458 @@
+@media screen and (max-width:768px)
+{    body{
+    max-width: 768px;
+}
+    .isaratop{
+        background-image: url(mainsp.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        
+        
+        }
+        header{
+            max-width: 100%;
+        }
+        .btn{
+            margin-right: 20px;
+        }
+        .header-in p  {
+            font-weight: 600;
+            font-size: 12px;
+            
+            
+            margin:0 auto;
+            padding: 0;
+        }
+        .header-in{
+            padding: 15px ;
+        } 
+     h1.txtl {
+            /* margin-top: 76px; */
+            font-size: 18px;
+            font-weight: 600;
+            margin:0 auto;
+            /* margin-bottom: 10px; */
+            padding-top: 110px;
+            line-height: 30px;
+        }
+    .txtm{
+        font-size: 16px;
+        font-weight: 600;
+    }  
+    .btn2 a{
+        text-decoration: none;
+        color: seashell;
+        display: block;
+        height: 100%;
+        
+        line-height: 80px;
+        font-size: 20px;
+    }  
+    .btn2{
+        width: 80%;
+        height: 80px;
+        border: 1px ;
+        background-color:#DA6B64;
+        border-radius: 50px;
+        text-align: center;
+        margin-bottom: 60px;
+        margin:0 auto;
+    }
+    .ask .txts{
+        background-color: #F9F2F4;
+        color: brown;
+        border-radius: 3px;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        }
+   .ask h2{
+    font-size: 16px;
+    margin-top: 30px;
+    color: white;
+
+    }   
+    .ask{
+        height: 520px;
+    }
+    .freedom{
+        margin-bottom: 50px;
+        font-size:20px;
+        font-weight: 550;
+        padding: 30px 0 30px 0;
+        
+    }
+    .txtbox{
+        width: 80%;
+        max-width: calc(100%-40px);
+        margin: 0 auto;
+        position: relative;
+    
+    }
+    .free-sentence{
+        font-size: 15px;
+    
+    }
+    .step{
+        flex-wrap: wrap;
+        
+    }
+    .step-m
+    {   
+        font-size: 10px;
+        margin: 10px 0 20px;
+        width: 80%;
+        height: 100px;
+    }
+    .step-m p{
+        font-weight: 600;
+        line-height: 10px;
+        margin: 10px auto;
+    
+    }
+    .teach{
+        text-align: center;
+        background-image: url(aboutsecondbg.jpg);
+        background-size: cover;
+        height: 700px;
+    }
+    .teach-l{
+        font-size: 25px;
+    } 
+    .skill p{
+        font-size: 15px;
+    }
+    .teach-sen{
+        font-size: 15px;
+    }
+    .learn-x{
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .learn-img{
+        width: 18%;
+    height: 20%;
+        padding:0 10px;
+    }
+    .learn-m{
+        font-size: 14px;
+    }
+    .learn{
+        text-align: center;
+        height: 400px;
+    
+    }
+    .melit-m{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        
+    }
+    .melit-mmm{
+        width: 100%;
+        height: 300px;
+        margin: 10px 0;
+    }
+    .melit-m img{
+        
+        object-fit: cover;
+        
+    }
+    .melit-box p{
+        
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .ray{
+        width: 100%;
+        font-size: 13px;
+    }
+    .ryu{
+        width: 60%;
+        font-size: 17px;
+    }
+    .op{
+        font-size: 14px;
+    }
+    /* member */
+    .members{
+        width: 80%;
+        padding: 15px;
+        margin: 30px 0 70px;
+    }
+    .member-box{
+        padding: 0;
+    }
+    .member{
+        text-align: center;
+        background-image: url(teacherbgsp.jpg);
+        background-size: cover;
+        color: white;
+    
+    }
+    .member-box p{
+        font-size: 12px;
+    }
+    .members img{
+        width: 20%;
+    }
+    .god{
+        margin: 0 auto;
+
+    }
+    .bangkok {
+        background-image: url(bangkokbgsp.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+    }
+    .realize .freedom{
+       
+        padding:0 20px;
+    }
+    .god::before, .god::after {
+        margin: 0 auto;
+
+    }
+    .message-boxs img{
+        width: 220px;
+        height: 220px;
+    }
+    .message-box p{
+        width: 60%;
+        margin: 0;
+    }
+    /* content */
+    .list{
+        display: block;
+    }
+    .list div{
+        width: 90%;
+        margin: 20px auto;
+
+    }
+    .list li{
+        list-style: none;
+        border-bottom: lightslategrey 1px dotted;
+        color: black;
+        background-color: #fff;
+        padding: 12px 0;
+        font-size: 12px;
+        
+    }
+    .content{
+        background-image: url(classbgsp.jpg);
+    }
+    /*flow************************************/
+    .flow-img,.aqua{
+        display: none;
+
+    }
+    .flow-box{
+        margin-bottom: 20px;
+    }
+    /*benefits**********************************************/
+    .benefits-box{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .ooo{
+        width: 45%;
+    }
+    .benefits-cir{
+        margin: 5px auto;
+        padding: 50px;
+        height: 200px;
+    }
+    .vol{
+        background-image: url(specialdetail.jpg);
+        background-position:right ;
+        
+    }
+    .vol-l{
+        font-size: 20px;
+    }
+    .vol-m{
+        font-size: 15px;
+    }
+    .key p{
+        font-size: 20px;
+    }
+    .key{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .key::before, 
+  .key::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+    
+
+  .enjoy-box div{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    
+    text-align: left;
+    margin: 0 10px;
+    
+    }
+    .enjoy-box{
+        margin: 40px auto;
+    }
+    .enjoy-l{
+        padding: 30px 0 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .enjoy-box p,.enjoy-box ul{
+        margin:0  auto 20px;
+        width: 90%;
+    }
+    .enjoy-box img{
+        width:90%;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    /* form*************** */
+    .form input[type="text"]{
+        width: 90%;
+    }
+    .form textarea{
+        width: 90%;
+    }
+    .form input[type="submit"]{
+        width: 90%;
+    }
+    /* acodion****************** */
+    #acMenu dd{
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    #acMenu dt{
+        font-size: 14px;
+        height:30px;
+        line-height:30px;
+        
+    }
+    #acMenu{
+        margin: 0 auto;
+        width: 90%;
+    }
+    #quetion h2{
+        text-align: center;
+        padding: 20px;
+        font-size: 23px;
+    }
+    dt:after{
+        top: 6px;
+    }
+    dt.ac:after{
+        top: 10px;
+        color: rgb(185, 179, 179);
+    }
+    #quetion{
+        padding-bottom: 30px;
+    }    
+    /* pagetop */
+    .ask .txts{
+        width: 80%;
+    }
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    background: #ECECEC;
+    
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 25px;
+    color: #000;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  .header-in p  {
+    font-weight: 600;
+    font-size: 12px;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:375px)
+{ 
+    .btn{
+        display: none;
+    }
+
+    .member-m {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
